@@ -26,12 +26,24 @@
 /* ---HOME--- */
 .banner-section {
   background-color: #ffe3d4;
-  font-family: 'Lobster', cursive;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Lobster", cursive;
+  font-family: "Open Sans", sans-serif;
   margin-top: 3rem;
   padding: 9rem;
   text-align: center;
   width: 100%;
+}
+
+/* ---INDEX--- */
+.cat-index-cards,
+.cat-show-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  margin: 2rem 0;
 }
 
 /* ---NAV LINKS--- */
@@ -40,4 +52,11 @@
 }
 .nav-link:hover {
   color: #000 !important;
+}
+
+/* ---SHOW--- */
+
+.cat-show-img {
+  width: 40%;
+  border-radius: 5%;
 }
